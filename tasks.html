@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeCloud</title>
+    <link rel="stylesheet" type="text/css" href="tasks.css" >
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+      rel="stylesheet"
+      type="text/css"
+    />
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+     </head>
+     <body>
+    <div class="modal-content">
+    <div class="todoList">
+  <div class="content">
+  <div class="modal-header">
+      <h1 class="logo">
+        Tasks
+        <span class="version">(1.0.0)</span>
+      </h1>
+    </div>
+    <form class="add">
+      <input type="text" id ="texttask" autocomplete="off" name="add" placeholder="  Add item...">
+      <div class="input-buttons">
+        <a href="#0" class="add-todo">
+          <svg xmlns="http://www.w3.org/2000/svg"  style="padding-top:3px;height:26px;width:26px"class="abc" viewBox="0 0 16 16">
+           <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+        </svg>
+        </a>
+      </div>
+    </form>
+    <ul class="todos">
+    </ul>
+  </div>
+  <div class="modal-icons">
+    <div class="flex-container"  >
+      <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" id="reset" class="abc"  viewBox="0 0 16 16">
+                  <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+                  <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+                </svg>
+            </div>
+        <div class="flex">
+          <a href="popup.html" >
+            <svg xmlns="http://www.w3.org/2000/svg"  id="home" class="abc" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+    <script src="tasks.js"></script>
+</body>
+</html>
